@@ -1,11 +1,10 @@
 # Simple Calculator Project
 
 ## Description
-This is a simple, responsive calculator built using HTML, CSS, and JavaScript. It can perform basic arithmetic operations such as addition, subtraction, multiplication,modulation and division.
-
+This is a simple, responsive calculator built using HTML, CSS, and JavaScript. It can perform  arithmetic operations and some basic functions.
 ## Features
 - Responsive design for all screen sizes.
-- Supports addition, subtraction, multiplication, and division.
+- Supports addition, subtraction, multiplication, division , percentege and some functions.
 - User-friendly interface with clear buttons and display.
 - Built with HTML, CSS, and JavaScript.
 
@@ -13,6 +12,7 @@ This is a simple, responsive calculator built using HTML, CSS, and JavaScript. I
 - HTML
 - CSS
 - JavaScript
+
 
 
 

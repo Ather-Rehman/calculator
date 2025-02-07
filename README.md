@@ -13,6 +13,7 @@ This is a simple, responsive calculator built using HTML, CSS, and JavaScript. I
 - CSS
 - JavaScript
 
-
+## 🔗 Live Demo
+👉 [Click here to use the calculator](https://ather-rehman.github.io/calculator/)
 
 

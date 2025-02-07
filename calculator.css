@@ -1,0 +1,141 @@
+body{
+    background-color: black; 
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header{
+    display: flex;
+    background-color: green;
+    align-items: center;
+    justify-content: center;
+    height : 5rem;
+    border-radius: 5px;
+    width: 100%;
+}
+input[type = "button"]{
+    background-color: #0f3b46;
+    position: relative;
+    z-index: 1;
+    margin: 2%;
+    color: rgb(106, 228, 106);
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+ }
+ input[type = "button"]:hover{
+    background-color: #427c8a;
+    color: rgb(0, 0, 0);
+ }
+.funct button{
+    height: 30px;
+    width: content;
+    border-radius: 4px;
+    margin: 3%;
+}
+.funct div{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.funct{
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px #081f24;
+    position: absolute;
+    top:2% ;
+    left: 0;
+    background-color:#032830; 
+    transition: display 4s ease-in-out;
+    width: max-content;
+    scrollbar-width: 0;
+}
+.funct::-webkit-scrollbar{
+    width: 0;
+}
+.none{
+    display: none;
+}
+.bu{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border-top: 1.5px solid  #387b7b;
+}
+.container{
+    background-color: #032830;
+    width: 60%;
+    height: content;
+    margin-top: 2%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+button{
+    background-color: inherit;
+    border: none;
+    color: gray; 
+    margin: 0 0 4% 0; 
+    text-align: center; 
+    font-size: 1em;
+    cursor: pointer;
+    background-color:  #02232b;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+button:hover{
+    background-color:  #0b353f;
+    color: aliceblue;
+    font-size: x-large; 
+}
+.inp{
+    background-color: inherit;
+    border: none;
+    outline: none;
+    text-align: end;
+    height: 50px; 
+    margin: 5%; 
+    width: 72%; 
+    color: gray; 
+    font-size: 1.4rem; 
+    overflow: scroll;
+    position: relative;
+}
+.inp::placeholder{
+   color: gray; 
+   font-size: 2rem; 
+}
+.row{
+    width :70%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.operator{
+   color:rgb(72, 197, 155); 
+}
+.AC , .del{
+   color:rgb(72, 197, 155); 
+}
+.S{
+   font-size: 1.4em;
+}
+.point{
+    font-size: 1.5em;
+    display: flex;
+    align-items: center; 
+    justify-content: center ;
+    color:rgb(72, 197, 155); 
+}
+.equal{
+    font-size: 1.5em;
+    background-color: rgb(72, 197, 155); 
+    margin: none;
+    border-radius: 5px; 
+}
+
+
+
+  
